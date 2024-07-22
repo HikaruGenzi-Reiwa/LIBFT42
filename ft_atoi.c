@@ -2,8 +2,7 @@
 
 int	is_space(char s)
 {
-	if (s == ' ' || s == '\n' || s == '\f' || s == '\t' || s == '\v'
-		|| s == '\r')
+	if (('\t' <= s && s <= '\t') || s == ' ')
 		return (1);
 	return (0);
 }

@@ -22,7 +22,7 @@ all: $(NAME)
 
 $(NAME): $(OBJS)
 	ar	rcs	$(NAME)	$(OBJS)
-       
+
 bonus :$(OBJS) $(OBJS_2)
 		touch bonus
 		ar rcs $(NAME) $(OBJS) $(OBJS_2)

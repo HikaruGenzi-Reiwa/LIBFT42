@@ -46,7 +46,7 @@ int	ft_atoi(const char *str)
 	return ((int)re);
 }
 
-// 27 28 29 30 31 36 37
+// // 27 28 29 30 31 36 37
 // #include <stdio.h>
 // #include <stdlib.h>
 
